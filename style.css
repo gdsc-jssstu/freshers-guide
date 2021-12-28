@@ -21,3 +21,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+a:hover {
+  color: #4285f4;
+}
+
+.card-title {
+  font-weight: bold;
+}
