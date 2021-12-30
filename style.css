@@ -33,8 +33,26 @@ a:hover {
 .card {
   width: 100%;
   object-fit: cover;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.card > .row > .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body {
+  margin-left: 1rem;
 }
 
 .map-link {
   color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-body {
+    margin-left: 0;
+  }
 }
