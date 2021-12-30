@@ -29,3 +29,12 @@ a:hover {
 .card-title {
   font-weight: bold;
 }
+
+.card {
+  width: 100%;
+  object-fit: cover;
+}
+
+.map-link {
+  color: red;
+}
